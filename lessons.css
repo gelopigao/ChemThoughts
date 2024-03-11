@@ -1,0 +1,52 @@
+/* lessons.css */
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: rebeccapurple;
+}
+
+.container {
+    width: 100%;
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: black;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow-y: auto; /* Enable vertical scrolling */
+    height: 100px; /* Limit container height */
+}
+
+.lesson {
+    margin-bottom: 30px;
+}
+
+h1 {
+    color: goldenrod;
+    font-size: 50px;
+    text-shadow: 2px 2px 2px white; /* Add shadow effect */
+}
+
+  @keyframes slideBackground {
+    0% {
+        background-image: url('img2.jpg');
+    }
+
+    80% {
+        background-image: url('img1.jpg');
+    }
+    100% {
+        background-image: url('img3.jpg');
+    }
+}
+
+.container {
+    width: 100%;
+    height: 250;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: slideBackground 5s; /* Adjust duration and iteration count as needed */
+}

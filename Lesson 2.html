@@ -1,0 +1,115 @@
+<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 3</title>
+    <link rel="stylesheet" href="lessons.css"> <!-- Link to the external CSS file -->
+</head>
+<style>
+    body {
+        background-image: url(bgg.jpg);
+        
+    }
+    .slider-container {
+        width: 90%;
+        margin: 0 auto;
+        overflow: hidden;
+        position: relative;
+        
+        
+    }
+    .slider {
+        display: flex;
+        transition: transform 0.5s ease;
+    }
+    .slide {
+        flex: 0 0 100%;
+    }
+    img {
+        width: 100%;
+        height: auto;
+        background-position: center;
+        background-size: cover;
+    }
+    .prev, .next {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        cursor: pointer;
+        padding: 10px;
+        color: burlywood;
+    }
+    .prev {
+        left: 0;
+    }
+    .next {
+        right: 0;
+    }
+    .footer {
+  background-color: black;
+    }
+</style>
+<body>
+    <br>
+    <div class="Lessons"><center>
+           
+        <h1><strong>Lesson 2<h1>CHEMICAL BONDING</strong></h1></a>
+
+    <div class="slider-container">
+        <div class="slider">
+            <div class="slide"><img src="bonding.png" alt="Bonding"></div>
+            <div class="slide"><img src="b1.png" alt="b1"></div>
+            <div class="slide"><img src="b2.png" alt="b2"></div>
+            <div class="slide"><img src="b3.png" alt="b3"></div>
+            <div class="slide"><img src="b4.png" alt="b4"></div>
+            <div class="slide"><img src="b5.png" alt="b5"></div>
+            <div class="slide"><img src="b6.png" alt="b6"></div>
+            <div class="slide"><img src="b7.png" alt="b7"></div>
+            <!-- Add more slides here -->
+        </div>
+        <div class="prev" onclick="prevSlide()">&#10094;</div>
+        <div class="next" onclick="nextSlide()">&#10095;</div>
+    </div>
+
+    <img id="button">
+        <h3 id="Back"><b><a href="Lesson main.html" style="color:white; text-decoration: none">Back</a></b></h3>
+        <footer class="footer">
+            <img src="logo3.png" class="gellobaho">
+          </footer>
+    <script>
+        let slideIndex = 0;
+        const slides = document.querySelectorAll('.slide');
+        
+        function showSlide(n) {
+            slides.forEach(slide => slide.style.transform = `translateX(-${n * 100}%)`);
+        }
+
+        function nextSlide() {
+            if (slideIndex < slides.length - 1) {
+                slideIndex++;
+            } else {
+                slideIndex = 0;
+            }
+            showSlide(slideIndex);
+        }
+
+        function prevSlide() {
+            if (slideIndex > 0) {
+                slideIndex--;
+            } else {
+                slideIndex = slides.length - 1;
+            }
+            showSlide(slideIndex);
+        }
+
+        // Optional: Auto play
+        setInterval(() => {
+            nextSlide();
+        }, 5000); // Change slide every 5 seconds
+    </script>
+
+    <!--button-->
+       
+    </body>
+    </html>

@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    
+    background-color: red;
+}
+
+.header .content-h {
+    display: flex;
+    margin-left: 70vw;
+}
+.header h1 {
+    margin: 2vw;
+    
+}
+
+.header h1 a {  
+    text-decoration: none;
+    color: black;
+    transition: .5s;
+}
+.header h1 a:hover {  
+    text-decoration: none;
+    color: white;
+    background-color: green;
+    
+}
+
+.slogan {
+    width: 100%;
+    height: 85.7vh;
+    background-color: blue;
+}
+
+.slogan .content-s {
+    background-color: pink;
+    width: 50%;
+    margin-left: 27vw;
+    padding-top: 10vw;
+    font-weight: bold;
+}
+
+.slogan .content-s p {
+    font-size: 20px;
+}

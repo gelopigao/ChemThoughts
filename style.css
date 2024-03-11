@@ -1,0 +1,615 @@
+.hover-img1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    width: 10px; /* Adjust width and height as needed */
+    height: 10px; /* Adjust width and height as needed */
+    transition: all linear 0.3s;  /* Adjust transition for desired speed */
+  }
+  
+  img {
+    border-radius: 20px;
+    width: 100%;
+    transition: all linear 0.3;  /* Adjust transition for desired speed */
+  }
+  
+ img.hover-img1:hover {
+    opacity: 1;  /* Change opacity to 1 on hover */
+
+
+  }
+
+
+
+.hover-img2{
+  
+    position: absolute;
+    top: 0.05;
+    left: 0.05;
+    opacity: 0;
+    width: 10px; /* Adjust width and height as needed */
+    height: 10px; /* Adjust width and height as needed */
+    transition: all linear 0.3s;  /* Adjust transition for desired speed */
+    image-resolution: 10%;
+ }
+
+  img.hover-img2:hover {
+    opacity: 1;  /* Change opacity to 1 on hover */
+  }
+
+.hover-img3{
+  
+    position: absolute;
+    top: 0.05;
+    left: 0.05;
+    opacity: 0;
+    width: 10px; /* Adjust width and height as needed */
+    height: 10px; /* Adjust width and height as needed */
+    transition: all linear 0.3s;  /* Adjust transition for desired speed */
+ }
+
+  img.hover-img3:hover {
+    opacity: 1;  /* Change opacity to 1 on hover */
+  }
+
+
+.hover-img4{
+  
+    position: absolute;
+    top: 0.05;
+    left: 0.05;
+    opacity: 0;
+    width: 10px; /* Adjust width and height as needed */
+    height: 10px; /* Adjust width and height as needed */
+    transition: all linear 0.3s;  /* Adjust transition for desired speed */
+ }
+
+  img.hover-img4:hover {
+    opacity: 1;  /* Change opacity to 1 on hover */
+  }
+
+.hover-img6{
+  
+    position: absolute;
+    top: 0.05;
+    left: 0.05;
+    opacity: 0;
+    width: 10px; /* Adjust width and height as needed */
+    height: 10px; /* Adjust width and height as needed */
+    transition: all linear 0.3s;  /* Adjust transition for desired speed */
+ }
+
+  img.hover-img6:hover {
+    opacity: 1;  /* Change opacity to 1 on hover */
+  }
+
+
+.hover-img7{
+  
+    position: absolute;
+    top: 0.05;
+    left: 0.05;
+    opacity: 0;
+    width: 10px; /* Adjust width and height as needed */
+    height: 10px; /* Adjust width and height as needed */
+    transition: all linear 0.3s;  /* Adjust transition for desired speed */
+ }
+
+  img.hover-img7:hover {
+    opacity: 1;  /* Change opacity to 1 on hover */
+  }
+
+  .hover-img8{
+  
+    position: absolute;
+    top: 0.05;
+    left: 0.05;
+    opacity: 0;
+    width: 10px; /* Adjust width and height as needed */
+    height: 10px; /* Adjust width and height as needed */
+    transition: all linear 0.3s;  /* Adjust transition for desired speed */
+ }
+
+  img.hover-img8:hover {
+    opacity: 1;  /* Change opacity to 1 on hover */
+  }
+
+  .hover-img9{
+  
+    position: absolute;
+    top: 0.05;
+    left: 0.05;
+    opacity: 0;
+    width: 10px; /* Adjust width and height as needed */
+    height: 10px; /* Adjust width and height as needed */
+    transition: all linear 0.3s;  /* Adjust transition for desired speed */
+ }
+
+  img.hover-img9:hover {
+    opacity: 1;  /* Change opacity to 1 on hover */
+  }
+
+  .hover-img10{
+  
+    position: absolute;
+    top: 0.05;
+    left: 0.05;
+    opacity: 0;
+    width: 10px; /* Adjust width and height as needed */
+    height: 10px; /* Adjust width and height as needed */
+    transition: all linear 0.3s;  /* Adjust transition for desired speed */
+ }
+
+  img.hover-img10:hover {
+    opacity: 1;  /* Change opacity to 1 on hover */
+  }
+
+  .hover-img11{
+  
+    position: absolute;
+    top: 0.05;
+    left: 0.05;
+    opacity: 0;
+    width: 10px; /* Adjust width and height as needed */
+    height: 10px; /* Adjust width and height as needed */
+    transition: all linear 0.3s;  /* Adjust transition for desired speed */
+ }
+
+  img.hover-img11:hover {
+    opacity: 1;  /* Change opacity to 1 on hover */
+  }
+
+  .hover-img12{
+  
+    position: absolute;
+    top: 0.05;
+    left: 0.05;
+    opacity: 0;
+    width: 10px; /* Adjust width and height as needed */
+    height: 10px; /* Adjust width and height as needed */
+    transition: all linear 0.3s;  /* Adjust transition for desired speed */
+ }
+
+  img.hover-img12:hover {
+    opacity: 1;  /* Change opacity to 1 on hover */
+  }
+
+  .hover-img13{
+  
+    position: absolute;
+    top: 0.05;
+    left: 0.05;
+    opacity: 0;
+    width: 10px; /* Adjust width and height as needed */
+    height: 10px; /* Adjust width and height as needed */
+    transition: all linear 0.3s;  /* Adjust transition for desired speed */
+ }
+
+  img.hover-img13:hover {
+    opacity: 1;  /* Change opacity to 1 on hover */
+  }
+
+  .hover-img14{
+  
+    position: absolute;
+    top: 0.05;
+    left: 0.05;
+    opacity: 0;
+    width: 10px; /* Adjust width and height as needed */
+    height: 10px; /* Adjust width and height as needed */
+    transition: all linear 0.3s;  /* Adjust transition for desired speed */
+ }
+
+  img.hover-img14:hover {
+    opacity: 1;  /* Change opacity to 1 on hover */
+  }
+
+  .hover-img15{
+  
+    position: absolute;
+    top: 0.05;
+    left: 0.05;
+    opacity: 0;
+    width: 10px; /* Adjust width and height as needed */
+    height: 10px; /* Adjust width and height as needed */
+    transition: all linear 0.3s;  /* Adjust transition for desired speed */
+ }
+
+  img.hover-img15:hover {
+    opacity: 1;  /* Change opacity to 1 on hover */
+  }
+
+  .hover-img16{
+  
+    position: absolute;
+    top: 0.05;
+    left: 0.05;
+    opacity: 0;
+    width: 10px; /* Adjust width and height as needed */
+    height: 10px; /* Adjust width and height as needed */
+    transition: all linear 0.3s;  /* Adjust transition for desired speed */
+ }
+
+  img.hover-img16:hover {
+    opacity: 1;  /* Change opacity to 1 on hover */
+  }
+
+  .hover-img17{
+  
+    position: absolute;
+    top: 0.05;
+    left: 0.05;
+    opacity: 0;
+    width: 10px; /* Adjust width and height as needed */
+    height: 10px; /* Adjust width and height as needed */
+    transition: all linear 0.3s;  /* Adjust transition for desired speed */
+ }
+
+  img.hover-img17:hover {
+    opacity: 1;  /* Change opacity to 1 on hover */
+  }
+
+  .hover-img18{
+  
+    position: absolute;
+    top: 0.05;
+    left: 0.05;
+    opacity: 0;
+    width: 10px; /* Adjust width and height as needed */
+    height: 10px; /* Adjust width and height as needed */
+    transition: all linear 0.3s;  /* Adjust transition for desired speed */
+ }
+
+  img.hover-img18:hover {
+    opacity: 1;  /* Change opacity to 1 on hover */
+  }
+
+.hover-img19{
+  
+    position: absolute;
+    top: 0.05;
+    left: 0.05;
+    opacity: 0;
+    width: 10px; /* Adjust width and height as needed */
+    height: 10px; /* Adjust width and height as needed */
+    transition: all linear 0.3s;  /* Adjust transition for desired speed */
+ }
+
+  img.hover-img19:hover {
+    opacity: 1;  /* Change opacity to 1 on hover */
+  }
+
+
+.hover-img20{
+  
+    position: absolute;
+    top: 0.05;
+    left: 0.05;
+    opacity: 0;
+    width: 10px; /* Adjust width and height as needed */
+    height: 10px; /* Adjust width and height as needed */
+    transition: all linear 0.3s;  /* Adjust transition for desired speed */
+ }
+
+  img.hover-img20:hover {
+    opacity: 1;  /* Change opacity to 1 on hover */
+  }
+
+  .hover-img21{
+  
+    position: absolute;
+    top: 0.05;
+    left: 0.05;
+    opacity: 0;
+    width: 10px; /* Adjust width and height as needed */
+    height: 10px; /* Adjust width and height as needed */
+    transition: all linear 0.3s;  /* Adjust transition for desired speed */
+ }
+
+  img.hover-img21:hover {
+    opacity: 1;  /* Change opacity to 1 on hover */
+  }
+
+.hover-img22{
+  
+    position: absolute;
+    top: 0.05;
+    left: 0.05;
+    opacity: 0;
+    width: 10px; /* Adjust width and height as needed */
+    height: 10px; /* Adjust width and height as needed */
+    transition: all linear 0.3s;  /* Adjust transition for desired speed */
+ }
+
+  img.hover-img22:hover {
+    opacity: 1;  /* Change opacity to 1 on hover */
+  }
+
+  .hover-img23{
+  
+    position: absolute;
+    top: 0.05;
+    left: 0.05;
+    opacity: 0;
+    width: 10px; /* Adjust width and height as needed */
+    height: 10px; /* Adjust width and height as needed */
+    transition: all linear 0.3s;  /* Adjust transition for desired speed */
+ }
+
+  img.hover-img23:hover {
+    opacity: 1;  /* Change opacity to 1 on hover */
+  }
+
+  .hover-img24{
+  
+    position: absolute;
+    top: 0.05;
+    left: 0.05;
+    opacity: 0;
+    width: 10px; /* Adjust width and height as needed */
+    height: 10px; /* Adjust width and height as needed */
+    transition: all linear 0.3s;  /* Adjust transition for desired speed */
+ }
+
+  img.hover-img24:hover {
+    opacity: 1;  /* Change opacity to 1 on hover */
+  }
+
+.hover-img25{
+  
+    position: absolute;
+    top: 0.05;
+    left: 0.05;
+    opacity: 0;
+    width: 10px; /* Adjust width and height as needed */
+    height: 10px; /* Adjust width and height as needed */
+    transition: all linear 0.3s;  /* Adjust transition for desired speed */
+ }
+
+  img.hover-img25:hover {
+    opacity: 1;  /* Change opacity to 1 on hover */
+  }
+
+  .hover-img26{
+  
+    position: absolute;
+    top: 0.05;
+    left: 0.05;
+    opacity: 0;
+    width: 10px; /* Adjust width and height as needed */
+    height: 10px; /* Adjust width and height as needed */
+    transition: all linear 0.3s;  /* Adjust transition for desired speed */
+ }
+
+  img.hover-img26:hover {
+    opacity: 1;  /* Change opacity to 1 on hover */
+  }
+
+.hover-img41{
+  
+    position: absolute;
+    top: 0.05;
+    left: 0.05;
+    opacity: 0;
+    width: 10px; /* Adjust width and height as needed */
+    height: 10px; /* Adjust width and height as needed */
+    transition: all linear 0.3s;  /* Adjust transition for desired speed */
+ }
+
+  img.hover-img41:hover {
+    opacity: 1;  /* Change opacity to 1 on hover */
+  }
+
+  .hover-img88{
+  
+    position: absolute;
+    top: 0.05;
+    left: 0.05;
+    opacity: 0;
+    width: 10px; /* Adjust width and height as needed */
+    height: 10px; /* Adjust width and height as needed */
+    transition: all linear 0.3s;  /* Adjust transition for desired speed */
+ }
+
+  img.hover-img88:hover {
+    opacity: 1;  /* Change opacity to 1 on hover */
+  }
+
+
+
+  .hover-img100{
+  
+    position: absolute;
+    top: 0.05;
+    left: 0.05;
+    opacity: 0;
+    width: 10px; /* Adjust width and height as needed */
+    height: 10px; /* Adjust width and height as needed */
+    transition: all linear 0.3s;  /* Adjust transition for desired speed */
+ }
+
+  img.hover-img100:hover {
+    opacity: 1;  /* Change opacity to 1 on hover */
+  }
+
+
+  .hover-img99{
+  
+    position: absolute;
+    top: 0.05;
+    left: 0.05;
+    opacity: 0;
+    width: 10px; /* Adjust width and height as needed */
+    height: 10px; /* Adjust width and height as needed */
+    transition: all linear 0.3s;  /* Adjust transition for desired speed */
+ }
+
+  img.hover-img99:hover {
+    opacity: 1;  /* Change opacity to 1 on hover */
+  }
+  
+.hover-img5{
+  
+    position: absolute;
+    top: 0.05;
+    left: 0.05;
+    opacity: 0;
+    width: 10px; /* Adjust width and height as needed */
+    height: 10px; /* Adjust width and height as needed */
+    transition: all linear 0.3s;  /* Adjust transition for desired speed */
+ }
+
+  img.hover-img5:hover {
+    opacity: 1;  /* Change opacity to 1 on hover */
+  }
+
+
+.hover-img10{
+  
+    position: absolute;
+    top: 0.05;
+    left: 0.05;
+    opacity: 0;
+    width: 10px; /* Adjust width and height as needed */
+    height: 10px; /* Adjust width and height as needed */
+    transition: all linear 0.3s;  /* Adjust transition for desired speed */
+ }
+
+  img.hover-img10:hover {
+    opacity: 1;  /* Change opacity to 1 on hover */
+  }
+
+
+.slider{
+    width: 84.6vw;
+    max-width: 100vw;
+    height: 700px;
+    margin: auto;
+    margin-top:7%;
+    margin-left: 8%;
+    position: relative;
+    overflow: hidden;
+    position: absolute; /* Change to absolute for better positioning */
+  top: 60%;
+  transform: translateY(-50%);
+  
+    
+}
+.slider .list{
+    position: absolute;
+    width: max-content;
+    height: 100%;
+    left: 0;
+    top: 0;
+    display: flex;
+    transition: 0.5s ;
+}
+.slider .list img{
+    width: 1300px;
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.slider .buttons{
+    position: absolute;
+    top: 45%;
+    left: 5%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.slider .buttons button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff5;
+    color: #fff;
+    border: none;
+    font-family: monospace;
+    font-weight: bold;
+}
+.slider .dots{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    color: #fff;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.slider .dots li{
+    list-style: none;
+    width: 5px;
+    height: 5px;
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 10px;
+    transition: 0.5s;
+    
+}
+
+body {
+  background-color: rgb(85,82,82);
+}
+
+.slider .dots li.active{
+    width: 30px;
+}
+@media screen and (max-width: 768px){
+    .slider{
+        height: 400px;
+    }
+}
+
+.header .lest { 
+  margin-left: 50vw;
+  list-style-type: none;
+  display: flex;
+  margin-top: 2.5vh;
+}
+
+.header .lest .po a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  margin-left: 10vw ; 
+  font-size: 20px;
+  font-size: 25px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.header .lest .po a:hover {
+  text-decoration: none;
+  margin-left: 10vw ;
+  color: rgb(217, 255, 0);
+  text-shadow: #ffffff;
+  transition: .5s;
+}
+
+.header {
+  background-image: linear-gradient(to bottom, black, transparent);
+  height: 40vh;
+  padding-top: 7vh;   
+}
+
+.logo {
+  height: 28vh;
+  width: 14vw;
+  float: left;
+  border-radius: 50px;
+  margin-left: 3vw;
+  margin-top: -48vh;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.retard {
+  height: 100%;
+  width: 100%;
+}
+

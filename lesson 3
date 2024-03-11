@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Background color of the body */
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('background.jpg'); /* Path to your background image */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding: 20px;
+}
+
+h1, p {
+    color: #fff; /* Text color */
+    text-align: center;
+    margin: 10px;
+}
+
+/* Create a semi-transparent background overlay */
+.container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+}
+
+/* Add a fancy effect */
+.container {
+    /* Example using background-blend-mode */
+    background-blend-mode: multiply;
+    /* Other possible effects:
+        - background-blend-mode: screen;
+        - background-blend-mode: overlay;
+        - background-blend-mode: color-dodge;
+        - background-blend-mode: luminosity;
+        (Experiment with different blend modes to achieve desired effect)
+    */
+}

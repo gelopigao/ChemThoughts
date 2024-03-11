@@ -1,0 +1,212 @@
+<html>
+    <head>
+        <title> ChemThought</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+.center {
+  display: block;
+  margin-left: 20%;
+  margin-right: auto;
+  width: 200px;
+  padding-top: 20px;
+}
+ul { margin: px;
+     padding-right: 10px; 
+     display: flex;}
+.list li{
+    padding: 5px;
+    font-family: Impact;
+    font-size: 25;
+    margin-left: 50px;
+    
+}
+ul .list {
+    margin-left: 68vw;
+    display: flex;
+    margin-top: 60px;
+    
+}
+ul .list a {
+    text-decoration: none;
+    color: white;   
+}
+li a:hover{
+    color: rgb(217, 255, 0);
+    text-shadow: #ffffff;
+}
+.logo {
+   float: left;
+   margin-top: -130px;
+
+}
+.tite {
+    background-image: linear-gradient(to bottom, black, transparent);
+}
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+}
+/* Slideshow container */
+.slideshow-container {
+  max-width: 90%;
+  max-height: auto;
+  position: relative;
+  margin: auto;
+  margin-left: 5vw;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 2em;
+  position: absolute;
+  bottom: 8px;
+  width: 15%;
+  border-radius: 20px;
+  margin-left: 33.5vw;
+  text-align: center;
+  background-color: red;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #e9fd0b;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+div .info{
+padding: auto;
+}
+
+body {
+  background-image: url(bgg.jpg);
+  background-repeat: no-repeat;
+}
+
+.gellobaho {
+  width: 50vw;
+  margin-left: 25vw;
+  margin-top: 5vh;
+}
+
+.footer {
+  background-color: black;
+  width: 98.9vw;
+  margin-left: -5vw;
+  height: 20vh;
+  margin-top: 10vh;
+}
+</style>
+</head>
+
+<body>
+    <div class="tite">
+        <ul style="list-style: none;color: azure; font-family: sans-serif">
+            
+            <div class="list">
+            <li><a href="Lesson main.html">Lessons</a></li>
+            <li><a href=Trivias.html>Trivias</a></li>
+            <li><a href="index.html">Students</a></li></div>
+        </ul>
+<a class="logo"><img class="center" src="logo2.png"></a>
+        </div><br><br><br><br><br>
+        <div class="slideshow-container">
+        
+<div class="slideshow-container">
+
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <a href="Lesson main.html"> <img src="22.png" style="width:100%"></a>
+    <div class="text">LESSONS</div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+   <a href="trivias.html"> <img src="11.png" style="width:100%"></a>
+    <div class="text">TRIVIAS</div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <a href="index.html"> <img src="33.png" style="width:100%"></A>
+    <div class="text">STUDENTS</div>
+  </div>
+  
+  </div>
+  <br>
+  
+  <div style="text-align:center">
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+  </div>
+
+<footer class="footer">
+  <img src="logo3.png" class="gellobaho">
+</footer>
+
+
+
+        <script>
+          let slideIndex = 0;
+          showSlides();
+          
+          function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";  
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}    
+            for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";  
+            dots[slideIndex-1].className += " active";
+            setTimeout(showSlides, 2000); // Change image every 2 seconds
+          }
+          </script> 
+</body>
+   
+</html>
